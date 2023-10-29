@@ -1,0 +1,75 @@
+
+.main_login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right_card{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+} 
+
+.login_card {
+    width: 70vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    flex-direction: column;
+    padding: 1px 10px;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+}
+
+
+.btn_login{
+    width: 23%;
+    padding: 7px 35px;
+    margin: 25px;
+    border: none;
+    border-radius: 80px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 16px; 
+    letter-spacing: 3px;
+    color: white;
+    background: #198754;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn_cadastro {
+    width: 23%;
+    padding: 7px 17px;
+    margin: 25px;
+    border: none;
+    border-radius: 80px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 16px; 
+    letter-spacing: 3px;
+    color: white;
+    background: #198754;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.img {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+p {
+    color: #979899;
+    margin: 0;
+}
+
+
